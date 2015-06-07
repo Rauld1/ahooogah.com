@@ -3,3 +3,9 @@
 # Example .gitignore files: https://github.com/github/gitignore
 /bower_components/
 /node_modules/
+bootstrap-glyphicons.html
+bootstrap-modal-play.html
+bootstrap-scrollspy-play.html
+bootstrap-tables.html
+codep-player2.html
+bootstrap-scroll-spy.html
