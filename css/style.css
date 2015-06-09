@@ -10,19 +10,31 @@ body{
     background-size: cover;
 }
 
-#opening-line {
+#opening-line, #headline, #headline-add {
     position: relative;
     top: 45px;
     right: 20px;
-    font-size: 2.2em;
-    color: #F1181F;
+    line-height: 1.2em;
+
+}
+
+#opening-line {
+    font-size: 1.9em;
+    color: #F64C63;
 }
 
 #headline {
-    position: relative;
-    top: 55px;
-    right: 20px;
-    font-size: 3.2em;
-    color: #F1181F;
+    font-size: 3em;
+    font-family: 'Bangers', cursive;
+    display: inline;
+    color: #F80202;
 }
+
+#headline-add {
+    font-size: 1.5em;
+    display: inline;
+    color: #F64C63;
+}
+
+
 
