@@ -69,5 +69,11 @@ body {
     margin-top: 25px;
 }
 
+.blue {
+    background-color: rgb(88, 236, 252);
+    position: relative;
+    bottom: 57px;
+}
+
 
 
