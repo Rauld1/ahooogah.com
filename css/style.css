@@ -1,5 +1,14 @@
 body{
-    font-family: 'Pacifico', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Bangers', cursive;
+}
+
+#top-nav {
+    position: relative;
+    left: 100px;
 }
 
 .landing-pic {
@@ -20,7 +29,9 @@ body{
 
 #opening-line {
     font-size: 1.9em;
+    font-family: 'Pacifico', cursive;
     color: #F64C63;
+
 }
 
 #headline {
@@ -32,6 +43,7 @@ body{
 
 #headline-add {
     font-size: 1.5em;
+    font-family: 'Pacifico', cursive;
     display: inline;
     color: #F64C63;
 }
