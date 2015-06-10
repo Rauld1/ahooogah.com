@@ -1,4 +1,4 @@
-body{
+body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -22,20 +22,18 @@ body{
 #opening-line, #headline, #headline-add {
     position: relative;
     top: 45px;
-    right: 20px;
+    right: 90px;
     line-height: 1.2em;
-
 }
 
 #opening-line {
     font-size: 1.9em;
     font-family: 'Pacifico', cursive;
     color: #F64C63;
-
 }
 
 #headline {
-    font-size: 3em;
+    font-size: 3.7em;
     font-family: 'Bangers', cursive;
     display: inline;
     color: #F80202;
@@ -46,6 +44,29 @@ body{
     font-family: 'Pacifico', cursive;
     display: inline;
     color: #F64C63;
+}
+
+#ahooogah-image {
+    position: relative;
+    bottom: 57px;
+    right: 15px;
+}
+
+#main-text-div {
+    font-size: 1.4em;
+    position: relative;
+    line-height: 27px;
+    border-radius: 15px;
+    border: 1px solid #DADADA;
+    top: 175px;
+    left: 25px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 300px;
+}
+
+#booking-button {
+    margin-top: 25px;
 }
 
 
