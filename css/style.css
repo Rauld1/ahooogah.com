@@ -60,11 +60,11 @@ body {
     border-radius: 15px;
     border: 1px solid #DADADA;
     top: 250px;
-    left: 10px;
+    left: 15px;
     padding-top: 30px;
     padding-left: 30px;
-    background-color: rgba(88, 236, 252, 0.5);
-    height: 200px;
+    background-color: rgba(88, 220, 252, 0.9);
+    height: 180px;
 }
 
 #booking-button {
