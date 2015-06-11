@@ -4,11 +4,27 @@ body {
 
 .navbar-brand {
     font-family: 'Bangers', cursive;
+    font-size: 1.7em;
 }
 
 #top-nav {
     position: relative;
-    left: 100px;
+    left: 250px;
+    font-size: 1.3em;
+}
+
+#top-nav li {
+        border: 1px solid rgba(218, 218, 218, 0.5);
+}
+
+#top-nav li:first-child {
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+}
+
+#top-nav li:last-child {
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
 }
 
 .landing-pic {
@@ -57,19 +73,21 @@ body {
     font-weight: 700;
     position: relative;
     line-height: 27px;
-    border-radius: 15px;
+    border-radius: 40px;
     border: 1px solid #DADADA;
-    top: 250px;
-    left: 15px;
-    padding-top: 30px;
+    top: 225px;
+    padding-top: 20px;
     padding-left: 30px;
     background-color: rgba(88, 220, 252, 0.9);
-    height: 180px;
+    height: 160px;
+    width: 350px;
 }
 
+
 #booking-button {
-    margin-top: 25px;
-    font-size: 1.2em;
+    position: relative;
+    bottom: 7px;
+    font-size: 1.0em;
 }
 
 .blue {
