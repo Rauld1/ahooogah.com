@@ -14,23 +14,22 @@ body {
 }
 
 #top-nav li {
-        border: 1px solid rgba(218, 218, 218, 0.5);
+    border: 1px solid rgba(218, 218, 218, 0.5);
 }
 
 #top-nav li:first-child {
-        border-top-left-radius: 15px;
-        border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 #top-nav li:last-child {
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .landing-pic {
     background-image: url(../images/dreamstime_m_16488481.jpg);
     background-repeat: no-repeat;
-    width: 100%;
     height: 800px;
     background-size: cover;
 }
@@ -66,21 +65,24 @@ body {
     position: relative;
     bottom: 57px;
     right: 15px;
+    width: 100%;
 }
 
 #main-text-div {
     font-size: 1.4em;
     font-weight: 700;
+    text-align: center;
     position: relative;
     line-height: 27px;
-    border-radius: 40px;
+    border-radius: 10px;
     border: 1px solid #DADADA;
     top: 225px;
     padding-top: 20px;
     padding-left: 30px;
     background-color: rgba(88, 220, 252, 0.9);
     height: 160px;
-    width: 350px;
+    width: 370px;
+    display: inline-block;
 }
 
 
@@ -90,11 +92,108 @@ body {
     font-size: 1.0em;
 }
 
-.blue {
-    background-color: rgb(88, 236, 252);
+.footer {
+    background-color: #EDB72f;
+    height: 60px;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
     position: relative;
-    bottom: 57px;
+    top: -57px;
+    right: 15px;
 }
+
+.footer p {
+    padding-top: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+@media (max-width: 768px) {
+    #ahooogah-image {
+        position: relative;
+        width: 60%;
+        display: block;
+        margin-left: 0;
+        margin-top: 100px;
+        margin-bottom: -57px;
+    }
+
+    #main-text-div {
+        position: static;
+        margin: 0 auto;
+        width: 100vw;
+        border: none;
+        border-radius: 0;
+    }
+
+    #main-text-div p {
+        width: 400px;
+        position: relative;
+        right: 15px;
+    }
+
+    #booking-button {
+        position: relative;
+        bottom: 0px;
+        font-size: 1.0em;
+    }
+
+    #top-nav {
+        position: static;
+    }
+
+    #top-nav li {
+        border: none;
+        text-align: center;
+    }
+
+    #top-nav li:hover {
+        text-decoration: underline;
+        font-size: 105%;
+    }
+
+    #top-nav li:first-child {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    #top-nav li:last-child {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .footer {
+    top: 0px;
+    }
+}
+
+@media (max-width: 540px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    #opening-line, #headline, #headline-add {
+        position: relative;
+        top: 45px;
+        right: 20px;
+        line-height: 1.2em;
+    }
+
+    #main-text-div p {
+        width: 100%;
+/*
+        position: relative;
+        right: 25px;
+*/
+    }
+}
+
 
 
 
