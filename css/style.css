@@ -124,8 +124,8 @@ body {
     padding-top: 20px;
 }
 
-.clear {
-    clear: both;
+.heavy {
+    font-weight: 600;
 }
 
 
@@ -217,6 +217,13 @@ body {
 
     #main-text-div p {
         width: 100%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    #limit-width {
+        padding-left: 20%;
+        padding-right: 20%;
     }
 }
 
