@@ -1,4 +1,6 @@
 
-            var day = new Date();
-             var yr = day.getFullYear();
-             $("#year").html(yr);
+var day = new Date();
+var yr = day.getFullYear();
+$("#year").html(yr);
+
+
