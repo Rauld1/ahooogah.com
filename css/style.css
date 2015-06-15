@@ -27,7 +27,7 @@ body {
     border-bottom-right-radius: 15px;
 }
 
-.landing-pic {
+.main-div {
     background-image: url(../images/dreamstime_m_16488481.jpg);
     background-repeat: no-repeat;
     height: 800px;
@@ -97,31 +97,33 @@ body {
     box-shadow: -3px 5px 3px #1A1A1A;
 }
 
-#info-row {
+#about {
     font-size: 1.3em;
     background-color: rgba(246, 31, 0, 0.3);
     position: relative;
     top: -57px;
 }
 
-#info-row p {
+#about p {
     padding: 25px 0 25px 0;
 }
 
 
 .footer {
     background-color: #EDB72f;
-    height: 60px;
+    font-size: 1.3em;
     width: 100vw;
-    padding: 0;
-    margin: 0;
+    padding: 30px 0 30px 0;
     position: relative;
     top: -57px;
     right: 15px;
+    text-align: center;
+    line-height: 20px;
 }
 
 .footer p {
-    padding-top: 20px;
+/*    padding-top: 20px;*/
+    padding: 0 0 5px 0;
 }
 
 .heavy {
@@ -184,12 +186,12 @@ body {
         border-bottom-right-radius: 0;
     }
 
-    #info-row {
+    #about {
         position: relative;
         top: 0px;
     }
 
-    #info-row p {
+    #about p {
         padding: 25px 0 25px; 0;
         border-bottom: 1 px solid #4c4c4c;
         text-align: center;
