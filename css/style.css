@@ -132,7 +132,7 @@ body {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     #ahooogah-image {
         position: relative;
         width: 60%;
